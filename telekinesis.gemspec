@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.summary      = "High level clients for Amazon Kinesis"
   spec.homepage     = "https://github.com/kickstarter/telekinesis"
 
-  spec.platform     = "java"
+  spec.platform     = Gem::Platform::RUBY
   spec.files        = `git ls-files`.split($/) + Dir.glob("lib/telekinesis/*.jar")
   spec.require_paths = ["lib"]
 
